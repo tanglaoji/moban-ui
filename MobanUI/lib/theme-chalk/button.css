@@ -1,0 +1,29 @@
+.mo-button {
+  margin: 0px;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  user-select: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  white-space: nowrap;
+  display: inline-block;
+  box-sizing: border-box;
+  color: rgb(96, 98, 102);
+  transition: all 0.2s ease 0s;
+  background: rgb(255, 255, 255);
+  border:1px solid rgb(220, 223, 230);
+}
+
+.mo-button--primary {
+  color: #fff;
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.mo-button--primary:focus,
+.mo-button--primary:hover {
+  border-color: var(--primary-hover-color);
+  background-color: var(--primary-hover-color);
+}

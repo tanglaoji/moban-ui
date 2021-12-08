@@ -1,0 +1,56 @@
+// flex layout
+.flex{
+  // vertical center
+  &-ver-c{
+    display: flex;
+    align-items: center;
+  }
+  // horizontal center
+  &-hor-c{
+    display: flex;
+    justify-content: center;
+  }
+  // all center
+  &-all-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  // default use row
+  &-row{
+    &-a{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    &-b{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-e{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  // special use column
+  &-col{
+    // common
+    &-a{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    &-b{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &-e{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}

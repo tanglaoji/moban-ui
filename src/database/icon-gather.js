@@ -1,0 +1,33 @@
+const IconGather = [
+  "mo-icon-refresh",
+  "mo-icon-rotate-right",
+  "mo-icon-rotate-left",
+  "mo-icon-fullscreen",
+  "mo-icon-enlarge",
+  "mo-icon-narrow",
+  "mo-icon-real-size",
+  "mo-icon-close",
+  "mo-icon-qrcode",
+  "mo-icon-delete",
+  "mo-icon-link",
+  "mo-icon-scan-code",
+  "mo-icon-setting",
+  "mo-icon-sound",
+  "mo-icon-time",
+  "mo-icon-location",
+  "mo-icon-home",
+  "mo-icon-search",
+  "mo-icon-drop-down",
+  "mo-icon-eye",
+  "mo-icon-camera",
+  "mo-icon-right",
+  "mo-icon-message",
+  "mo-icon-save-as",
+  "mo-icon-voice",
+  "mo-icon-arrow-up",
+  "mo-icon-arrow-down",
+  "mo-icon-arrow-right",
+  "mo-icon-arrow-left"
+]
+
+export default IconGather

@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "moban-icons";
+	src: url(fonts/moban-icons.woff) format("woff"),url(fonts/moban-icons.ttf) format("truetype");
+	font-weight: 400;
+	font-display: "auto";
+	font-style: normal;
+}
+
+[class*=" mo-icon-"], [class^=mo-icon-] {
+	font-family: "moban-icons" !important;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: inline-block;
+	vertical-align: baseline;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.mo-icon-refresh:before {
+  content: "\e667";
+}
+
+.mo-icon-rotate-right:before {
+  content: "\e66a";
+}
+
+.mo-icon-rotate-left:before {
+  content: "\e66b";
+}
+
+.mo-icon-fullscreen:before {
+  content: "\e662";
+}
+
+.mo-icon-enlarge:before {
+  content: "\e60c";
+}
+
+.mo-icon-narrow:before {
+  content: "\e63c";
+}
+
+.mo-icon-real-size:before {
+  content: "\e7cd";
+}
+
+.mo-icon-close:before {
+  content: "\e641";
+}
+
+.mo-icon-qrcode:before {
+  content: "\e642";
+}
+
+.mo-icon-delete:before {
+  content: "\e645";
+}
+
+.mo-icon-link:before {
+  content: "\e646";
+}
+
+.mo-icon-scan-code:before {
+  content: "\e649";
+}
+
+.mo-icon-setting:before {
+  content: "\e64b";
+}
+
+.mo-icon-sound:before {
+  content: "\e64c";
+}
+
+.mo-icon-time:before {
+  content: "\e64d";
+}
+
+.mo-icon-location:before {
+  content: "\e64e";
+}
+
+.mo-icon-home:before {
+  content: "\e64f";
+}
+
+.mo-icon-search:before {
+  content: "\e651";
+}
+
+.mo-icon-drop-down:before {
+  content: "\e65c";
+}
+
+.mo-icon-eye:before {
+  content: "\e661";
+}
+
+.mo-icon-camera:before {
+  content: "\e663";
+}
+
+.mo-icon-right:before {
+  content: "\e664";
+}
+
+.mo-icon-message:before {
+  content: "\e665";
+}
+
+.mo-icon-save-as:before {
+  content: "\e666";
+}
+
+.mo-icon-voice:before {
+  content: "\e687";
+}
+
+.mo-icon-arrow-up:before {
+  content: "\e65d";
+}
+
+.mo-icon-arrow-down:before {
+  content: "\e65e";
+}
+
+.mo-icon-arrow-right:before {
+  content: "\e65f";
+}
+
+.mo-icon-arrow-left:before {
+  content: "\e660";
+}
