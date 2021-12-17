@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-:root {
-  --primary-color: #4B9BF8;
-  --primary-hover-color: #6CAEFC;
-  --danger-color: #E85F5C;
-  --success-color: #54BD4C;
-  --info-color: #848C8E;
-}
+@import url("./root.css");
 
 @import url("./common.css");

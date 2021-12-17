@@ -7,7 +7,6 @@
 <script>
 export default {
   name: "MoHeader",
-  componentName: "MoHeader",
   props: {
     height: {
       type: String,

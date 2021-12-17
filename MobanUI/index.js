@@ -7,6 +7,8 @@ import MoContainer from "./packages/container"
 import MoHeader from "./packages/header"
 import MoMain from "./packages/main/index"
 import MoAside from "./packages/aside"
+import MoRow from "./packages/row"
+import MoIcon from "./packages/icon"
 
 // filter
 import colorFilter from "./lib/filter/colorFilter"
@@ -20,7 +22,9 @@ const components = [
   MoContainer,
   MoHeader,
   MoMain,
-  MoAside
+  MoAside,
+  MoRow,
+  MoIcon
 ]
 
 const filters = [

@@ -2,19 +2,31 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import i18n from "./i18n"
-// 代码高亮
-import hljs from "highlight.js";
-import 'highlight.js/styles/github.css';
 import "reset.css";
 import "@/styles/flex.less";
 
-Vue.directive("highlight", (el) => {
+// 代码高亮
+import hljs from "highlight.js"     //导入代码高亮文件
+import "./styles/highlight.less"  //自定义高亮样式
+Vue.directive("highlight", function (el) {
   let highlight = el.querySelectorAll("div");
   highlight.forEach((block) => {
     hljs.highlightBlock(block)
   })
 })
 
+// 编辑器
+import editorTheme from "@/database/editor-theme.js";
+import * as monaco from "monaco-editor/esm/vs/editor/editor.api.js";
+import "monaco-editor/esm/vs/editor/contrib/find/findController.js";
+import "monaco-editor/esm/vs/editor/contrib/folding/folding.js";
+import "monaco-editor/esm/vs/basic-languages/html/html.contribution";
+import "monaco-editor/esm/vs/basic-languages/javascript/javascript.contribution";
+monaco.editor.defineTheme("moban", editorTheme);
+monaco.editor.setTheme("moban");
+Vue.prototype.$monaco = monaco;
+
+// MobanUI
 import Moban from "../MobanUI";
 import "../MobanUI/lib/theme-chalk/index.css";
 Vue.use(Moban)

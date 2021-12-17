@@ -1,0 +1,15 @@
+.mo-button-group {
+  display: inline-flex;
+  align-items: center;
+  margin: 8px 8px 0 0;
+}
+.mo-button-group.fillet .mo-button {
+  margin: 0;
+  border-radius: 0;
+}
+.mo-button-group.fillet .mo-button:first-child {
+  border-radius: var(--moban-border-radius-mini) 0 0 var(--moban-border-radius-mini);
+}
+.mo-button-group.fillet .mo-button:last-child {
+  border-radius: 0 var(--moban-border-radius-mini) var(--moban-border-radius-mini) 0;
+}

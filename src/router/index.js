@@ -50,6 +50,18 @@ export const constantRoutes = [
         component: () => import("@/views/doc/basic/icon"),
         hidden: true,
       },
+      {/** 按钮 Button */
+        path: "/doc/button",
+        name: "button",
+        component: () => import("@/views/doc/basic/button"),
+        hidden: true,
+      },
+      {/** 按钮组 Button */
+        path: "/doc/button-group",
+        name: "buttonGroup",
+        component: () => import("@/views/doc/basic/button-group"),
+        hidden: true,
+      },
     ]
   },
   {

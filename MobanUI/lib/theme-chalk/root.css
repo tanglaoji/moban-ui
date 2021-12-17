@@ -1,0 +1,39 @@
+:root {
+  /* primary-color */
+  --moban-primary-color: #4B9BF8;
+  --moban-primary-color-plain: #4B9BF81a;
+  --moban-primary-border-color-plain: #4B9BF84d;
+  --moban-primary-color-hover: #6CAEFC;
+  --moban-primary-color-active: #498bdb;
+  /* neutral-color */
+  --moban-neutral-color: #848C8E;
+  --moban-neutral-color-plain: #848C8E1a;
+  --moban-neutral-border-color-plain: #848C8E4d;
+  --moban-neutral-color-hover: #9aa4a7;
+  --moban-neutral-color-active: #737a7c;
+  /* success-color */
+  --moban-success-color: #6ed666;
+  --moban-success-color-plain: #6ed6661a;
+  --moban-success-border-color-plain: #6ed6664d;
+  --moban-success-color-hover: #72dd6b;
+  --moban-success-color-active: #69ca62;
+  /* warning-color */
+  --moban-warning-color: #e4c05c;
+  --moban-warning-color-plain: #e4c05c1a;
+  --moban-warning-border-color-plain: #e4c05c4d;
+  --moban-warning-color-hover: #eccc73;
+  --moban-warning-color-active: #c9a645;
+  /* danger-color */
+  --moban-danger-color: #e65552;
+  --moban-danger-color-plain: #e655521a;
+  --moban-danger-border-color-plain: #e655524d;
+  --moban-danger-color-hover: #f36765;
+  --moban-danger-color-active: #cf4947;
+
+  /* radius */
+  --moban-border-radius-mini: 4px;
+  --moban-border-radius-small: 8px;
+  --moban-border-radius-large: 16px;
+  --moban-border-radius-super: 32px;
+  --moban-border-radius-full: 50%;
+}
